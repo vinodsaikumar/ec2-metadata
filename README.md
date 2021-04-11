@@ -26,6 +26,8 @@ curl http://169.254.169.254/latest/meta-data/ami-id
 ```
 In case you need a json output and use it for some comparison or debugging you can use this utility.
 
+Please note: I have explicitly not used boto for boto3 limitations (this utility is to showcase one approach to format metadata as json )
+
 ```
 $ python --version
 Python 2.7.17
